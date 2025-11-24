@@ -384,12 +384,12 @@ local function createLoadingScreen()
     local loadingGui = Instance.new("ScreenGui")
     loadingGui.Name = "LoadingScreen"
     loadingGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
-    loadingGui.DisplayOrder = 9999
+    loadingGui.DisplayOrder = 99999
     loadingGui.Parent = PlayerGui
     
     -- Fundo FULLSCREEN escuro azulado
     local background = Instance.new("Frame")
-    background.Size = UDim2.new(1, 0, 1, 0)
+    background.Size = UDim2.new(2, 0, 2, 0)
     background.Position = UDim2.new(0, 0, 0, 0)
     background.BackgroundColor3 = Color3.fromRGB(5, 10, 25)
     background.BorderSizePixel = 0
